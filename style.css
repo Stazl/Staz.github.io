@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 120%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 100%);
+    background-color: black;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 69%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 17px;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+
+.logo2 {
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    left: 18px;
+}
+
+.logo3 {
+    font-size: 10px;
+    position: absolute;
+    top: 920px;
+    left: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 765px;
+    position:relative; top:20px;
+}
+
+span {
+    color: rgb(108, 118, 255);
+}
